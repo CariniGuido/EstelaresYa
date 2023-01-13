@@ -1,0 +1,360 @@
+element.style {
+}
+@media (prefers-reduced-motion: no-preference)
+:root {
+    scroll-behavior: smooth;
+}
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13,110,253;
+    --bs-secondary-rgb: 108,117,125;
+    --bs-success-rgb: 25,135,84;
+    --bs-info-rgb: 13,202,240;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 17,17,17;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 0,0,0;
+    --bs-body-color-rgb: 33,37,41;
+    --bs-body-bg-rgb: 255,255,255;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+Show All Properties (1 more)
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    overflow-x: hidden;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+html[Attributes Style] {
+    -webkit-locale: "es";
+}
+user agent stylesheet
+html {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+box-sizing border-box
+display block
+font-family "Noto Sans KR", sans-serif
+height 1138px
+margin-bottom 0px
+margin-left 0px
+margin-right 0px
+margin-top 0px
+overflow-x hidden
+padding-bottom 0px
+padding-left 0px
+padding-right 0px
+padding-top 0px
+scroll-behavior smooth
+width 1500px
+-webkit-locale "es"
+
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+  overflow-x: hidden; }
+
+h1 {
+  color: #dee230;
+  margin-bottom: .5em;
+  overflow-y: hidden; }
+
+h2 {
+  font-size: 1.8em;
+  margin: 2em 0;
+  color: #dee230;
+  overflow-y: hidden; }
+
+h3 {
+  margin: .8em 0;
+  color: #dee230;
+  overflow-y: hidden; }
+
+/* NAV */
+header #navbarNav a {
+  color: #e4e4e4; }
+  header #navbarNav a:hover {
+    color: #dee230; }
+  header #navbarNav a:active {
+    color: #dee230; }
+
+header #navbarNav .active {
+  color: #dee230; }
+
+header i {
+  color: #dee230; }
+
+main {
+  min-height: 100vh;
+  min-width: 100vw; }
+
+/* HOME */
+.main-home {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #1b1b1b;
+  color: #e4e4e4;
+  align-items: center; }
+
+.info {
+  margin: 4em 2em;
+  width: 80%; }
+
+#home-img {
+  width: 80%;
+  margin-top: 2em; }
+
+/* SHOWS */
+.main-shows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b1b1b;
+  color: #e4e4e4;
+  display: flex; }
+  .main-shows h3 {
+    font-size: 22px; }
+  .main-shows iframe {
+    width: 80%;
+    margin-bottom: 2em; }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/img/shows.jpg);
+  background-attachment: local;
+  background-position: left;
+  background-size: cover;
+  width: 100vw;
+  height: 50vh; }
+
+.dates {
+  margin: 2em 0; }
+  .dates td {
+    padding: .5em .2em; }
+
+/* DISCOGRAFÍA */
+.main-discografia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b1b1b;
+  color: #e4e4e4;
+  display: flex; }
+
+.cards {
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3em; }
+  .cards img {
+    width: 90%; }
+
+.cards__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .cards__card button, .cards__card #send-btn {
+    background-color: #1db954;
+    margin-top: 1em; }
+    .cards__card button a, .cards__card #send-btn a {
+      color: #e4e4e4; }
+
+.iframes {
+  display: none; }
+
+/* GALERÍA */
+.main-galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b1b1b;
+  color: #e4e4e4; }
+
+.integrante {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .integrante img {
+    width: 50%; }
+  .integrante p {
+    margin: 1em 0; }
+
+/* CONTACTO */
+.main-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b1b1b;
+  color: #e4e4e4; }
+
+.img-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+#img-contacto {
+  width: 70%; }
+
+.formulario {
+  width: 80%; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 3em; }
+  form input {
+    margin-bottom: 1em; }
+
+/* */
+button, #send-btn {
+  background-color: #dee230;
+  border: none;
+  border-radius: 0.3em;
+  padding: 0.5em 1em; }
+  button a, #send-btn a {
+    color: #111111;
+    text-decoration: none; }
+
+#send-btn {
+  padding: 0.4em; }
+  #send-btn:hover {
+    background-color: #111111;
+    color: #dee230; }
+
+/* FOOTER */
+footer {
+  background-color: #111111;
+  color: #e4e4e4;
+  text-align: center;
+  padding: 1em;
+  grid-area: footer; }
+  footer a i {
+    color: #dee230;
+    overflow: hidden; }
+
+@media screen and (min-width: 768px) {
+  /* HOME */
+  .main-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center; }
+  .info {
+    width: 100%; }
+  #home-img {
+    margin: 5em;
+    width: 600px;
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+    #home-img:hover {
+      -webkit-transform: scale(1.2);
+      transform: scale(1.2); }
+  /* SHOWS */
+  .hero {
+    background-attachment: fixed;
+    height: 50vh; }
+  .dates td {
+    opacity: .8;
+    color: rgb(122, 122, 41) ;
+    
+    padding: .5em 4em; }
+  /* DISCOGRAFÍA */
+  .cards {
+    display: flex;
+    flex-direction: row; }
+    .cards img {
+      width: 80%; }
+  .cards__card button, .cards__card #send-btn {
+    display: none; }
+  .iframes {
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    margin-bottom: 2em; }
+  /* GALERÍA */
+  .main-galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .integrantes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .integrante {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .integrante img {
+      width: 50%; }
+    .integrante p {
+      margin: 1em 0; }
+  /* CONTACTO */
+  .main-contacto {
+    align-items: center; }
+  .img-form {
+    flex-direction: row; }
+  #img-contacto {
+    width: 80%;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9); }
+    #img-contacto:hover {
+      -webkit-transform: scale(1);
+      transform: scale(1); }
+  .formulario {
+    width: 120%; } }
