@@ -185,7 +185,9 @@ main {
 .dates {
   margin: 2em 0; }
   .dates td {
-    padding: .5em .2em; }
+    padding: .5em .2em; 
+    opacity: .8;
+    color: rgb(122, 122, 41) ;}
 
 /* DISCOGRAFÍA */
 .main-discografia {
@@ -358,3 +360,5 @@ footer {
       transform: scale(1); }
   .formulario {
     width: 120%; } }
+
+    
