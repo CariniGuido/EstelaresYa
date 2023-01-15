@@ -251,7 +251,18 @@ main {
   align-items: center; }
 
 #img-contacto {
-  width: 70%; }
+  width: 20%;
+align-items: center;
+-webkit-transform: scale(0.9);
+    transform: scale(0.9); }
+    #img-contacto:hover {
+      -webkit-transform: scale(1);
+      transform: scale(1); } 
+
+.img-whats {
+  text-align: center;
+  
+}
 
 .formulario {
   width: 80%; }
@@ -361,4 +372,5 @@ footer {
   .formulario {
     width: 120%; } }
 
+    
     
